@@ -51,13 +51,13 @@ function menuCriador(){
   menuLimpa();
   document.getElementById('idCriador').style.display = 'block';
 
-
+  document.getElementById('idMenuCriador').style.color='blue';
 
   document.getElementById('idMenuDefinicao').style.color='black';
   document.getElementById('idMenuHistoria').style.color='black';
   document.getElementById('idMenuOutraPagina').style.color='black';
   
-  document.getElementById('idMenuCriador').style.color='blue';
+  
 
 }
 
@@ -65,10 +65,11 @@ function outraPagina(){
   menuLimpa();
   document.getElementById('idBots').style.display = 'block';
   
+  document.getElementById('idMenuOutraPagina').style.color='blue';
+
   document.getElementById('idMenuDefinicao').style.color='black';
   document.getElementById('idMenuHistoria').style.color='black';
   document.getElementById('idMenuCriador').style.color='black';
-  document.getElementById('idMenuOutraPagina').style.color='blue'
 }
 function Menu(){
   document.getElementById().style.display
