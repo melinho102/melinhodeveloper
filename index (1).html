@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  <div class="barraInicial">
+    <img class="imagemSimbol" src="IMG_20230417_215427.jpg" alt="">
+    <div class="menuSuperior">
+      <ul class="menu">
+        <li>contato</li>
+        <li>page2</li>
+        <li class="menu-li">MENU</li>
+        
+      </ul>
+    </div>
+  </div>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="parteInicial" id="idparteInicial">
+    <div class="submenu">
+      <h2 onclick="menuDefinicao()" class="classMenuDefinicao" id="idMenuDefinicao">Definição</h1>
+      <h2 onclick="menuHistoria()" id="idMenuHistoria">História</h1>
+      <h2 onclick="menuCriador()" id="idMenuCriador">Criador</h1>
+      <h2 onclick="outraPagina()" id="idMenuOutraPagina">Contato
+      </h2>
+    </div>
+    <div class="content" id="idcontent">
+
+      <div class="divDefinicao" id="idDefinicao">
+      <h2 id="idTitulo">Definição</h2>
+      
+          <p id="idCorpo">JavaScript é uma Linguagem de Programação, criada por Brendan Eich, a pedido da empresa Netscape, em meados de 1995. No início, o JavaScript foi batizado com outro nome: LiveScript. No entanto, a Netscape não ficou sozinha com o desenvolvimento do JavaScript.</p>
+      </div>
+      
+      <div class="divHistoria" id="idHistoria">
+              <h2 id="idTitulo">História</h2>
+      
+              <p id="idCorpo">Em 1993, o Centro Nacional de Aplicações de Supercomputação (NCSA), uma unidade da Universidade de Illinois em Urbana-Champaign, lançou o NCSA Mosaic, o primeiro navegador gráfico popular da Web, que desempenhou um papel importante na expansão do crescimento da nascente World Wide Web além do nicho NeXTSTEP onde a World Wide Web havia se formado três anos antes. Em 1994, uma empresa chamada Mosaic Communications foi fundada em Mountain View, na Califórnia, e empregou muitos dos autores originais do NCSA Mosaic para criar o Mosaic Netscape. No entanto, não compartilhou intencionalmente nenhum código com o NCSA Mosaic. O codinome interno do navegador da empresa era Mozilla, uma junção de Mosaic and Godzilla. A primeira versão do navegador da Web, Mosaic Netscape 0.9, foi lançada no final de 1994. Em quatro meses, já havia conquistado três quartos do mercado de navegadores e se tornado o principal navegador da Web nos anos 90. Para evitar problemas de propriedade de marca registrada com o NCSA, o navegador foi posteriormente renomeado para Netscape Navigator no mesmo ano, e a empresa assumiu o nome de Netscape Communications. A Netscape Communications percebeu que a Web precisava se tornar mais dinâmica. Marc Andreessen, o fundador da empresa, acreditava que o HTML precisava de uma linguagem de cola que fosse fácil de usar por Web designers e programadores de meio período para montar componentes como imagens e plugins, onde o código poderia ser escrito diretamente na Web.Em 1995, a Netscape Communications recrutou Brendan Eich com o objetivo de incorporar a linguagem de programação Scheme em seu Netscape Navigator.[10] Antes que ele pudesse começar, a Netscape Communications colaborou com a Sun Microsystems para incluir na linguagem de programação mais estática do Netscape Navigator Sun, Java, a fim de competir com a Microsoft pela adoção de tecnologias e plataformas da Web.[11] A Netscape Communications decidiu então que a linguagem de script que eles queriam criar complementaria o Java e deveria ter uma sintaxe semelhante, o que excluía a adoção de outras linguagens como Perl, Python, TCL ou Scheme. Para defender a ideia do JavaScript contra propostas concorrentes, a empresa precisava de um protótipo. Eich escreveu um em 10 dias, em maio de 1995.Embora tenha sido desenvolvido sob o nome Mocha, a linguagem foi oficialmente chamada de LiveScript quando foi lançada em versões beta do Netscape Navigator 2.0 em setembro de 1995, mas foi renomeada para JavaScript[12] quando foi lançada no Netscape Navigator 2.0 beta 3 Dezembro.[13] A escolha final do nome causou confusão, dando a impressão de que a linguagem era uma derivação da linguagem de programação Java, e a escolha foi caracterizada como uma manobra de marketing da Netscape para dar ao JavaScript o status da linguagem da moda, o Java.Há um equívoco comum de que o JavaScript foi influenciado por uma linguagem de script de página da Web desenvolvida pelo Nombas chamada Cmm (não confundir com o C posteriormente - criado em 1997).[14] Brendan Eich, no entanto, nunca tinha ouvido falar de Cmm antes de criar o LiveScript.[15] Os Nombas lançaram seus scripts de página da Web incorporados no Netscape, embora o script de página da Web não fosse um conceito novo, conforme mostrado pelo navegador da Web ViolaWWW. Nombas mais tarde passou a oferecer JavaScript em vez de Cmm em seu produto ScriptEase e fazia parte do grupo TC39 que padronizava o ECMAScript.</p>
+            </div>
+            
+            <div class="divCriador" id="idCriador">
+                    <h2 id="idTitulo">Criador</h2>
+            
+                    <p id="idCorpo">Brendan Eich (play /ˈaɪk/; nascido em 1961)[1] é um programador de computadores americano e criador da linguagem de programação JavaScript. Ex-chefe do escritório de tecnologia na Mozilla Corporation.</p>
+                    <div class="divImagem">
+                    <img   src="Brendan_Eich_Mozilla_Foundation_official_photo.jpg" alt="Brendan_Eich_Mozilla_Foundation_official_photo.jpg">
+                    </div>
+            </div>
+            <div class="divBots" id="idBots">
+                    
+                      <h2 id="idTitulo">Contato</h2>
+      
+                      <p id="idCorpo">JavaScript é uma Linguagem de Programação, criada por Brendan Eich, a pedido da empresa Netscape, em meados de 1995. No início, o JavaScript foi batizado com outro nome: LiveScript. No entanto, a Netscape não ficou sozinha com o desenvolvimento do JavaScript.</p>
+                      <ul>
+                        <li>contigo so tenho vitória completa total.</li>
+                        <li>Dê uma nova chance a si mesmo  de fazer diferente e melhor.</li>
+                        <button style="background: gray;color: gold" onclick="page2()">button</button>
+                      </ul>
+                    
+                  </div>
+
+    </div>
+  </div>
+  
+    <!-- Rodapé -->
+
+  <div class="divRodape">
+    - Desenvolvido por Melquizedeque Mattos em 2023 -
+  </div>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
